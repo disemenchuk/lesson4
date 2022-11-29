@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="timetable__header">
+            <h1 class="main__title">22 March 2018</h1>
+            <div class="btn">
+            <button class="timetable__btn search__btn">
+                <svg class="search__image" width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38 38L27 27" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C24.2843 31 31 24.2843 31 16C31 7.71573 24.2843 1 16 1C7.71573 1 1 7.71573 1 16C1 24.2843 7.71573 31 16 31Z" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </button>
+            <button class="timetable__btn layout__btn">
+                <svg class="layout__image" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 1H15V15H1V1Z" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 1H37V15H23V1Z" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 23H15V37H1V23Z" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23 23H37V37H23V23Z" stroke="#8998B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+            </button>
+            </div>
+        </div>
+        <div class="time__of-day">
+            <ul class="hourly__list">
+                <li class="list__hours">
+                    <span class="hour">9:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">10:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">11:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">12:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">13:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">14:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">15:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">16:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">17:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">18:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">19:00</span>
+                </li>
+                <li class="list__hours">
+                    <span class="hour">20:00</span>
+                </li>
+            </ul>
+            <ul class="list__of-meets">
+                <li class="meeting__list meeting__list-sophia">Meet Sophia in airport</li>
+                <li class="meeting__list meeting__list-studio">Studio workshop</li>
+                <li class="meeting__list meeting__list-design">Design workshop with Johny Ive</li>
+            </ul>    
+        </div>
+    </main>
+    <aside class="aside">
+        <div class="calendar">
+        <div class="calendar__header">
+            <button class="calendar__btn previous__month">
+                <svg class="calendar__btn-image" width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 1L1 19L19 37" stroke="white"/>
+                </svg> 
+            </button>
+            <span class="calendar__title" aria-label="March 2018">March 2018</span>
+            <button class="calendar__btn next__month">
+                <svg class="calendar__btn-image calendar__btn-image-reverse" width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 1L1 19L19 37" stroke="white"/>
+                </svg> 
+            </button>
+        </div>
+        <div class="calendar__body">
+            <ul class="name__calendar-days">
+                <li class="name__calendar-day" aria-label="Monday">M</li>
+                <li class="name__calendar-day" aria-label="Tuesday">T</li>
+                <li class="name__calendar-day" aria-label="Wednesday">W</li>
+                <li class="name__calendar-day" aria-label="Thursday">T</li>
+                <li class="name__calendar-day" aria-label="Friday">F</li>
+                <li class="name__calendar-day" aria-label="Saturday">Sat</li>
+                <li class="name__calendar-day" aria-label="Sunday">Sun</li>
+            </ul>
+            <ul class="calendar__date-list">
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Mon, 1 March, 2018" href="">1</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Tue, 2 March, 2018" href="">2</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Wed, 3 March, 2018" href="">3</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Thu, 4 March, 2018" href="">4</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Fri, 5 March, 2018" href="">5</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sat, 6 March, 2018" href="">6</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sun, 7 March, 2018" href="">7</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Mon, 8 March, 2018" href="">8</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Tue, 9 March, 2018" href="">9</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Wed, 10 March, 2018" href="">10</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Thu, 11 March, 2018" href="">11</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Fri, 12 March, 2018" href="">12</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sat, 13 March, 2018" href="">13</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sun, 14 March, 2018" href="">14</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Mon, 15 March, 2018" href="">15</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Tue, 16 March, 2018" href="">16</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Wed, 17 March, 2018" href="">17</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Thu, 18 March, 2018" href="">18</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Fri, 19 March, 2018" href="">19</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sat, 20 March, 2018" href="">20</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sun, 21 March, 2018" href="">21</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number twenty__two" aria-label="Mon, 22 March, 2018" href="">22</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Tue, 23 March, 2018" href="">23</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Wed, 24 March, 2018" href="">24</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Thu, 25 March, 2018" href="">25</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Fri, 26 March, 2018" href="">26</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sat, 27 March, 2018" href="">27</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sun, 28 March, 2018" href="">28</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Mon, 29 March, 2018" href="">29</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Tue, 30 March, 2018" href="">30</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Wed, 31 March, 2018" href="">31</a>
+                </li>
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Thu, 1 April, 2018" href="">1</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Fri, 2 April, 2018" href="">2</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sat, 3 April, 2018" href="">3</a>
+                </li> 
+                <li class="calendar__date"> 
+                    <a class="calendar__number" aria-label="Sun, 4 April, 2018" href="">4</a>
+                </li> 
+                </ul>
+    </div>
+        <div class="categories">
+            <h2 aria-label="Your categories">Your categories</h2>
+            <div class="buttons"></div>
+            <button class="categories__btn finance__btn">
+                <svg class="finance" aria-label="Finance" width="285" height="80" viewBox="0 0 285 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0H273C279.627 0 285 5.37258 285 12V68C285 74.6274 279.627 80 273 80H12C5.37258 80 0 74.6274 0 68V12Z" fill="#8576ED"/>
+                    <path d="M107.502 39.3721H101.207V46H98.4893V30.3594H108.426V32.5508H101.207V37.2021H107.502V39.3721ZM113.453 46H110.746V30.3594H113.453V46ZM129.201 46H126.483L119.512 34.9033V46H116.794V30.3594H119.512L126.505 41.499V30.3594H129.201V46ZM141.361 42.3584H135.303L134.035 46H131.21L137.118 30.3594H139.557L145.476 46H142.64L141.361 42.3584ZM136.065 40.167H140.599L138.332 33.6787L136.065 40.167ZM159.666 46H156.948L149.977 34.9033V46H147.259V30.3594H149.977L156.97 41.499V30.3594H159.666V46ZM174.812 40.9082C174.655 42.5768 174.039 43.8802 172.965 44.8184C171.891 45.7493 170.462 46.2148 168.679 46.2148C167.433 46.2148 166.333 45.9212 165.381 45.334C164.436 44.7396 163.705 43.8981 163.189 42.8096C162.674 41.721 162.405 40.457 162.384 39.0176V37.5566C162.384 36.0814 162.645 34.7816 163.168 33.6572C163.691 32.5329 164.439 31.6663 165.413 31.0576C166.394 30.4489 167.526 30.1445 168.808 30.1445C170.534 30.1445 171.923 30.6136 172.976 31.5518C174.028 32.4899 174.641 33.8148 174.812 35.5264H172.105C171.977 34.402 171.647 33.5928 171.117 33.0986C170.594 32.5973 169.825 32.3467 168.808 32.3467C167.626 32.3467 166.716 32.7799 166.079 33.6465C165.449 34.5059 165.127 35.7699 165.112 37.4385V38.8242C165.112 40.5143 165.413 41.8034 166.015 42.6914C166.623 43.5794 167.511 44.0234 168.679 44.0234C169.746 44.0234 170.548 43.7835 171.085 43.3037C171.622 42.8239 171.962 42.0254 172.105 40.9082H174.812ZM186.393 39.0176H179.969V43.8301H187.478V46H177.251V30.3594H187.402V32.5508H179.969V36.8691H186.393V39.0176Z" fill="white"/>
+                </svg>                    
+            </button>
+            <button class="categories__btn management__btn">
+                <svg class="management" aria-label="Management" width="285" height="80" viewBox="0 0 285 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0H273C279.627 0 285 5.37258 285 12V68C285 74.6274 279.627 80 273 80H12C5.37258 80 0 74.6274 0 68V12Z" fill="#F39946"/>
+                    <path d="M77.5479 30.3594L82.0596 42.3477L86.5605 30.3594H90.0732V46H87.3662V40.8438L87.6348 33.9473L83.0156 46H81.0713L76.4629 33.958L76.7314 40.8438V46H74.0244V30.3594H77.5479ZM102.244 42.3584H96.1855L94.918 46H92.0928L98.001 30.3594H100.439L106.358 46H103.522L102.244 42.3584ZM96.9482 40.167H101.481L99.2148 33.6787L96.9482 40.167ZM120.549 46H117.831L110.859 34.9033V46H108.142V30.3594H110.859L117.853 41.499V30.3594H120.549V46ZM132.709 42.3584H126.65L125.383 46H122.558L128.466 30.3594H130.904L136.823 46H133.987L132.709 42.3584ZM127.413 40.167H131.946L129.68 33.6787L127.413 40.167ZM150.358 43.9697C149.793 44.7074 149.008 45.266 148.006 45.6455C147.003 46.0251 145.865 46.2148 144.59 46.2148C143.279 46.2148 142.119 45.9176 141.109 45.3232C140.1 44.7288 139.319 43.8802 138.768 42.7773C138.223 41.6673 137.94 40.3747 137.919 38.8994V37.6748C137.919 35.3115 138.485 33.4674 139.616 32.1426C140.748 30.8105 142.327 30.1445 144.354 30.1445C146.094 30.1445 147.476 30.5742 148.5 31.4336C149.524 32.293 150.14 33.5319 150.348 35.1504H147.684C147.383 33.2669 146.291 32.3252 144.407 32.3252C143.19 32.3252 142.262 32.7656 141.625 33.6465C140.995 34.5202 140.669 35.8057 140.647 37.5029V38.7061C140.647 40.3962 141.002 41.7103 141.711 42.6484C142.427 43.5794 143.419 44.0449 144.687 44.0449C146.076 44.0449 147.064 43.7298 147.651 43.0996V40.0381H144.429V37.9756H150.358V43.9697ZM162.486 39.0176H156.062V43.8301H163.571V46H153.345V30.3594H163.496V32.5508H156.062V36.8691H162.486V39.0176ZM169.308 30.3594L173.819 42.3477L178.32 30.3594H181.833V46H179.126V40.8438L179.395 33.9473L174.775 46H172.831L168.223 33.958L168.491 40.8438V46H165.784V30.3594H169.308ZM194.197 39.0176H187.773V43.8301H195.282V46H185.056V30.3594H195.207V32.5508H187.773V36.8691H194.197V39.0176ZM209.902 46H207.185L200.213 34.9033V46H197.495V30.3594H200.213L207.206 41.499V30.3594H209.902V46ZM224.093 32.5508H219.216V46H216.52V32.5508H211.686V30.3594H224.093V32.5508Z" fill="white"/>
+                </svg>
+            </button>
+            <button class="categories__btn">
+                <svg class="design" aria-label="Design" width="285" height="80" viewBox="0 0 285 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0H273C279.627 0 285 5.37258 285 12V68C285 74.6274 279.627 80 273 80H12C5.37258 80 0 74.6274 0 68V12Z" fill="#FF467E"/>
+                    <path d="M100.644 46V30.3594H105.263C106.645 30.3594 107.869 30.6673 108.937 31.2832C110.011 31.8991 110.841 32.7728 111.429 33.9043C112.016 35.0358 112.31 36.332 112.31 37.793V38.5771C112.31 40.0596 112.012 41.363 111.418 42.4873C110.831 43.6117 109.989 44.4782 108.894 45.0869C107.805 45.6956 106.555 46 105.145 46H100.644ZM103.361 32.5508V43.8301H105.134C106.559 43.8301 107.651 43.3861 108.41 42.498C109.176 41.6029 109.567 40.321 109.581 38.6523V37.7822C109.581 36.085 109.212 34.7887 108.475 33.8936C107.737 32.9984 106.666 32.5508 105.263 32.5508H103.361ZM124.158 39.0176H117.734V43.8301H125.243V46H115.017V30.3594H125.168V32.5508H117.734V36.8691H124.158V39.0176ZM135.631 41.9717C135.631 41.2842 135.387 40.7542 134.9 40.3818C134.421 40.0094 133.55 39.6335 132.29 39.2539C131.03 38.8743 130.027 38.4518 129.282 37.9863C127.857 37.0911 127.145 35.9238 127.145 34.4844C127.145 33.224 127.657 32.1855 128.681 31.3691C129.712 30.5527 131.048 30.1445 132.688 30.1445C133.776 30.1445 134.746 30.3451 135.599 30.7461C136.451 31.1471 137.12 31.7201 137.607 32.4648C138.094 33.2025 138.338 34.0225 138.338 34.9248H135.631C135.631 34.1084 135.373 33.471 134.857 33.0127C134.349 32.5472 133.618 32.3145 132.666 32.3145C131.778 32.3145 131.087 32.5042 130.593 32.8838C130.106 33.2633 129.862 33.7933 129.862 34.4736C129.862 35.0465 130.127 35.5264 130.657 35.9131C131.187 36.2926 132.061 36.665 133.278 37.0303C134.496 37.3883 135.473 37.8001 136.211 38.2656C136.949 38.724 137.489 39.2539 137.833 39.8555C138.177 40.4499 138.349 41.1481 138.349 41.9502C138.349 43.2536 137.847 44.292 136.845 45.0654C135.849 45.8317 134.496 46.2148 132.784 46.2148C131.653 46.2148 130.611 46.0072 129.658 45.5918C128.713 45.1693 127.975 44.5892 127.445 43.8516C126.923 43.1139 126.661 42.2546 126.661 41.2734H129.379C129.379 42.1615 129.673 42.849 130.26 43.3359C130.847 43.8229 131.688 44.0664 132.784 44.0664C133.729 44.0664 134.438 43.8766 134.911 43.4971C135.391 43.1104 135.631 42.6019 135.631 41.9717ZM143.602 46H140.895V30.3594H143.602V46ZM158.931 43.9697C158.365 44.7074 157.581 45.266 156.578 45.6455C155.576 46.0251 154.437 46.2148 153.162 46.2148C151.852 46.2148 150.691 45.9176 149.682 45.3232C148.672 44.7288 147.891 43.8802 147.34 42.7773C146.796 41.6673 146.513 40.3747 146.491 38.8994V37.6748C146.491 35.3115 147.057 33.4674 148.188 32.1426C149.32 30.8105 150.899 30.1445 152.926 30.1445C154.666 30.1445 156.048 30.5742 157.072 31.4336C158.096 32.293 158.712 33.5319 158.92 35.1504H156.256C155.955 33.2669 154.863 32.3252 152.979 32.3252C151.762 32.3252 150.835 32.7656 150.197 33.6465C149.567 34.5202 149.241 35.8057 149.22 37.5029V38.7061C149.22 40.3962 149.574 41.7103 150.283 42.6484C150.999 43.5794 151.991 44.0449 153.259 44.0449C154.648 44.0449 155.636 43.7298 156.224 43.0996V40.0381H153.001V37.9756H158.931V43.9697ZM174.324 46H171.606L164.635 34.9033V46H161.917V30.3594H164.635L171.628 41.499V30.3594H174.324V46Z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    </aside>
+</body>
+</html>
